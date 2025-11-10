@@ -1,4 +1,4 @@
-<img width="850" height="70" alt="image" src="https://github.com/user-attachments/assets/8d1cb091-ec2a-4cec-a2e4-8c6f4762f15d" /># Proposed Solutions for Some Exercises Featured in the Book *Algorithmic Thinking*
+# Proposed Solutions for Some Exercises Featured in the Book *Algorithmic Thinking*
 # Nombre del estudiante: Buitrago Daniel
 
 This repository contains proposed solutions to selected exercises from the book *Algorithmic Thinking*, written by Professor Andrés Ducuara.
