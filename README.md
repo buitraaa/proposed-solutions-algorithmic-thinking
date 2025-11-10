@@ -35,5 +35,5 @@ Este ejercicio se caracterizó por el uso de una matriz bidimensional que hizo m
    
 Después está la función `void bucleReservas()` la cual hace que el programa siga en un bucle para guardar asientos.
 Como implementación adicional, está la función `void guardarReservasCSV`, la cual genera un archivo .CSV con las filas y columnas separadas por coma, esta función se implementó plenamente con la implementación realizada por el maestro Andres Ducuara durante una clase.
-Finalmente, se realizó la implementación del código en el archivo `main.cpp`
+Finalmente, se realizó la implementación del código en el archivo `main.cpp`**
 ---
