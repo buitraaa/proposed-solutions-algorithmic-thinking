@@ -58,3 +58,13 @@ También se utilizó la libreria `iomanip`, la cual pasa los grandes números de
 La solución consiste en diseñar un sistema que permita a una persona crear una cuenta y luego iniciar sesión con su usuario y contraseña. Para lograrlo, se guarda la información en un archivo que funciona como una lista de usuarios registrados. Cuando alguien intenta ingresar, el sistema revisa si los datos coinciden con los que ya están guardados
 
 ---
+
+## Exercise: [Expression evaluator]
+### Estrategia de solución
+
+El programa resuelve expresiones matemáticas simples sin paréntesis respetando la prioridad de operaciones. Primero, separa los números y operadores del texto ingresado por el usuario, almacenándolos en arreglos distintos. Luego, evalúa las operaciones de mayor prioridad (multiplicación y división) modificando los arreglos para eliminar los elementos ya procesados. Finalmente, aplica las operaciones restantes (suma y resta) en orden, obteniendo así el resultado final que se muestra al usuario.
+
+
+---
+
+
