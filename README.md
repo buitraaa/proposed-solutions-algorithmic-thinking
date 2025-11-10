@@ -41,6 +41,7 @@ Finalmente, toda la lógica fue integrada en el archivo `main.cpp`.
 ---
 ## Exercise: [Student grade management system]
 ### Estrategia de solución
+
 Se usó un bucle para mantener haciendo una suma de notas basado en el input de notas que previamente el usuario dá. Finalmente se hace el cálculo y se imprime en consola.
 
 ---
@@ -48,5 +49,12 @@ Se usó un bucle para mantener haciendo una suma de notas basado en el input de 
 ### Estrategia de solución
 El programa convierte de 4 posibles monedas (COP, USD, GBP, EUR). Se utilizó un menú para poder preguntar desde qué moneda se desea convertir.
 También se utilizó la libreria `iomanip`, la cual pasa los grandes números de notación científica a enteros.
+
+---
+
+## Exercise: [User authenticaction system]
+### Estrategia de solución
+
+La solución consiste en diseñar un sistema que permita a una persona crear una cuenta y luego iniciar sesión con su usuario y contraseña. Para lograrlo, se guarda la información en un archivo que funciona como una lista de usuarios registrados. Cuando alguien intenta ingresar, el sistema revisa si los datos coinciden con los que ya están guardados
 
 ---
