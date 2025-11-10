@@ -32,7 +32,7 @@ La estrategia para resolver este ejercicio se basó casi por completo en el uso 
 Este ejercicio se caracterizó por el uso de una matriz bidimensional que hizo mucho más facil la implementación, se imprimir la matriz con un  "[ ]" si el asiento está vacio, si está ocupado imprime "[X]". Posteriormente hace la validación de: 
 1. Si el asiento está fuera de la matriz (asiento inexistente).
 2. Si el asiento está ocupado.
-   
+---
 Después está la función `void bucleReservas()` la cual hace que el programa siga en un bucle para guardar asientos.
 Como implementación adicional, está la función `void guardarReservasCSV`, la cual genera un archivo .CSV con las filas y columnas separadas por coma, esta función se implementó plenamente con la implementación realizada por el maestro Andres Ducuara durante una clase.
 Finalmente, se realizó la implementación del código en el archivo `main.cpp`**
