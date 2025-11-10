@@ -1,5 +1,5 @@
 # Proposed Solutions for Some Exercises Featured in the Book *Algorithmic Thinking*
-# Buitrago Daniel
+# Nombre del estudiante: Buitrago Daniel
 
 This repository contains proposed solutions to selected exercises from the book *Algorithmic Thinking*, written by Professor Andrés Ducuara.
 
