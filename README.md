@@ -42,9 +42,11 @@ Finalmente, toda la lógica fue integrada en el archivo `main.cpp`.
 ## Exercise: [Student grade management system]
 ### Estrategia de solución
 Se usó un bucle para mantener haciendo una suma de notas basado en el input de notas que previamente el usuario dá. Finalmente se hace el cálculo y se imprime en consola.
+
 ---
 ## Exercise: [Currency converter]
 ### Estrategia de solución
 El programa convierte de 4 posibles monedas (COP, USD, GBP, EUR). Se utilizó un menú para poder preguntar desde qué moneda se desea convertir.
 También se utilizó la libreria `iomanip`, la cual pasa los grandes números de notación científica a enteros.
+
 ---
