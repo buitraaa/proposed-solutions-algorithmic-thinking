@@ -1,4 +1,4 @@
-# Proposed Solutions for Some Exercises Featured in the Book *Algorithmic Thinking*
+<img width="850" height="70" alt="image" src="https://github.com/user-attachments/assets/8d1cb091-ec2a-4cec-a2e4-8c6f4762f15d" /># Proposed Solutions for Some Exercises Featured in the Book *Algorithmic Thinking*
 # Nombre del estudiante: Buitrago Daniel
 
 This repository contains proposed solutions to selected exercises from the book *Algorithmic Thinking*, written by Professor Andrés Ducuara.
@@ -27,7 +27,7 @@ La estrategia para resolver este ejercicio se basó casi por completo en el uso 
 3. **Paso 3:** Implementar las funciones con la experiencia de usuario (mediante consola).
 
 ---
-## Exercise: Movie Ticket Reservation System
+## Exercise: [Movie Ticket Reservation System]
 ### Estrategia de solución
 Este ejercicio se caracterizó por el uso de una **matriz bidimensional**, lo cual facilitó la implementación.  
 El sistema imprime la matriz con un `[ ]` si el asiento está vacío y con un `[X]` si está ocupado.
@@ -39,12 +39,12 @@ Como implementación adicional, se desarrolló la función `void guardarReservas
 Esta función se implementó siguiendo la explicación del profesor **Andrés Ducuara** durante una clase.
 Finalmente, toda la lógica fue integrada en el archivo `main.cpp`.
 ---
-## Exercise: Student grade management system
+## Exercise: [Student grade management system]
 ### Estrategia de solución
 Se usó un bucle para mantener haciendo una suma de notas basado en el input de notas que previamente el usuario dá. Finalmente se hace el cálculo y se imprime en consola.
 ---
----
-## Exercise: Currency converter
+## Exercise: [Currency converter]
 ### Estrategia de solución
-El programa convierte de 4 posibles monedas (COP, USD, GBP, EUR). Se utilizó un menú para poder preguntar desde que moneda se desea convertir. Posteriormente el programa lo convierte a la moneda que el usuario especifique en la consola. También se utilizó la libreria `<iomanip>`, la cual pasa los grandes números de notación científica a enteros.
+El programa convierte de 4 posibles monedas (COP, USD, GBP, EUR). Se utilizó un menú para poder preguntar desde qué moneda se desea convertir.
+También se utilizó la libreria `iomanip`, la cual pasa los grandes números de notación científica a enteros.
 ---
