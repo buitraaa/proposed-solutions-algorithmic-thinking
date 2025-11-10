@@ -22,9 +22,9 @@ Solutions presented here are independently developed and do not represent offici
 La estrategia para resolver este ejercicio se basó casi por completo en el uso de un bucle `while`. En este caso, la modularidad fue clave para lograr una solución, ya que al saber los argumentos de las funciones que se encuentran en el archivo operaciones.cpp se logra llevar a cabo una solución mas eficiente con los argumentos de entrada y salida.
 ### Explicación paso a paso de la solución
 
-1. **Paso 1:** [Se definen las funciones en el archivo operaciones.h]
-2. **Paso 2:** [Se implementan las funciones en el archivo operaciones.cpp]
-3. **Paso 3:** [Implementar las funciones con la experiencia de usuario (mediante consola).]
+1. **Paso 1:** Se definen las funciones en el archivo operaciones.h
+2. **Paso 2:** Se implementan las funciones en el archivo operaciones.cpp
+3. **Paso 3:** Implementar las funciones con la experiencia de usuario (mediante consola).
 
 ---
 
