@@ -72,4 +72,10 @@ Se hizo un bucle que siga el número de veces que el usuario defina. Adicionalme
 
 ---
 
+## Exercise: [Game score tracking system]
+### Estrategia de solución
+Se construyó un programa sencillo que permite registrar jugadores, asignarles puntajes en varios juegos y mostrar esos datos en pantalla. Para mantener el código organizado, se separaron las funciones en archivos distintos, y se tuvo que usar punteros para actualizar el número total de jugadores desde otras funciones.
+
+---
+
 
