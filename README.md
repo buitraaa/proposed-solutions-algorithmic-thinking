@@ -93,3 +93,11 @@ Finalmente, solo se llaman las funciones en el `main.cpp` y se piden los datos d
 Primero, buscamos la manera de pasar un decimal a binario, la cual se puede resumir como dividir el número sucesivamente entre 2, anotando cada residuo, hasta que el cociente sea 0. Luego, se leen los residuos de abajo hacia arriba para formar el número binario. Asi podemos hacer una implementación calculando el residuo de cada división hasta que dé 0, luego, se imprime.
 
 ---
+## Exercise: [Generar un número aleatorio del 1-100]
+### Estrategia de solución
+Importamos dos librerías, para escoger un número, y para tener un manejo del tiempo. Al tener de entrada un tiempo actual, nos aseguramos de que sea al azar. Utilizamos la función para determinar el número y le sumamos uno para que se genere entre 1-100 y no entre 0-99.
+
+---
+
+
+
