@@ -98,6 +98,11 @@ Primero, buscamos la manera de pasar un decimal a binario, la cual se puede resu
 Importamos dos librerías, para escoger un número, y para tener un manejo del tiempo. Al tener de entrada un tiempo actual, nos aseguramos de que sea al azar. Utilizamos la función para determinar el número y le sumamos uno para que se genere entre 1-100 y no entre 0-99.
 
 ---
+## Exercise: [Find the GCD and LCM of three numbers]
+### Estrategia de solución
+Para resolver el ejercicio dividí el programa en partes usando funciones y archivos separados. Primero se creó una función para calcular el MCD mediante restas sucesivas, restando el número menor al mayor hasta que ambos fueran iguales; ese resultado es el MCD. Luego hice otra función para el MCM aprovechando la relación entre ambos valores, multiplicando los dos números y dividiendo por su MCD. Las funciones se declararon en un archivo .h y se implementaron en un .cpp para mantener el código organizado. Finalmente, en el programa principal pedí los números al usuario, llamé las funciones y mostré los resultados, aplicando estructuras básicas como condicionales y ciclos.
+
+---
 
 
 
