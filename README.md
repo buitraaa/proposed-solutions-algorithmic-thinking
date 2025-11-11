@@ -64,6 +64,11 @@ La solución consiste en diseñar un sistema que permita a una persona crear una
 
 El programa resuelve expresiones matemáticas simples sin paréntesis respetando la prioridad de operaciones. Primero, separa los números y operadores del texto ingresado por el usuario, almacenándolos en arreglos distintos. Luego, evalúa las operaciones de mayor prioridad (multiplicación y división) modificando los arreglos para eliminar los elementos ya procesados. Finalmente, aplica las operaciones restantes (suma y resta) en orden, obteniendo así el resultado final que se muestra al usuario.
 
+---
+
+## Exercise: [Voting system with automatic counting]
+### Estrategia de solución
+Se hizo un bucle que siga el número de veces que el usuario defina. Adicionalmente, se suma un voto cada vez que una persona decide votar por uno de los candidatos.
 
 ---
 
