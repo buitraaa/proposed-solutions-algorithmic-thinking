@@ -87,5 +87,9 @@ Para solucionar este ejercicio, utilizamos principalmente dos formulas:
 Finalmente, solo se llaman las funciones en el `main.cpp` y se piden los datos del usuario.
 
 ---
+---
+## Exercise: [Decimal a binario]
+### Estrategia de solución
+Primero, buscamos la manera de pasar un decimal a binario, la cual se puede resumir como dividir el número sucesivamente entre 2, anotando cada residuo, hasta que el cociente sea 0. Luego, se leen los residuos de abajo hacia arriba para formar el número binario. Asi podemos hacer una implementación calculando el residuo de cada división hasta que dé 0, luego, se imprime.
 
-
+---
