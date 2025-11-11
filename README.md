@@ -74,7 +74,17 @@ Se hizo un bucle que siga el número de veces que el usuario defina. Adicionalme
 
 ## Exercise: [Game score tracking system]
 ### Estrategia de solución
-Se construyó un programa sencillo que permite registrar jugadores, asignarles puntajes en varios juegos y mostrar esos datos en pantalla. Para mantener el código organizado, se separaron las funciones en archivos distintos, y se tuvo que usar punteros para actualizar el número total de jugadores desde otras funciones.
+Se construyó un programa que permite registrar jugadores, asignarles puntajes en varios juegos y mostrar esos datos en pantalla. Para mantener el código organizado, se separaron las funciones en archivos distintos, y se tuvo que usar punteros para actualizar el número total de jugadores desde otras funciones.
+
+---
+
+## Exercise: [Calorie and BMI calculator]
+### Estrategia de solución
+Para solucionar este ejercicio, utilizamos principalmente dos formulas:
+1. **Formula 1:** La fórmula BMI la cual dice qué: bmi = peso / (altura * altura)
+2. **Formula 2:** Debido a que obtener el índice de calorías apróximado de una persona sin tener un registro de su alimentación es complicado, se utilizó la formula Harris-Benedict, la cual es la siguiente: TMB = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years).
+
+Finalmente, solo se llaman las funciones en el `main.cpp` y se piden los datos del usuario.
 
 ---
 
