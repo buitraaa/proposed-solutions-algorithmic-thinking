@@ -112,4 +112,9 @@ Utilizamos la sugerencia de la formula de Heron, pedimos 3 inputs y calculamos c
 ### Estrategia de solución
 Se creó una función que recibe los valores de a, b y c, calcula el discriminante y, según su valor, determina cuántas soluciones reales existen. Si el discriminante es positivo, la función calcula dos raíces; si es cero, una sola; y si es negativo, informa que no hay soluciones reales. 
 
+---
+## Exercise: [Implement the collatz conjecture]
+### Estrategia de solución
+Se hizo un bucle de validacion de pares e impares para aplicar los pasos de la conjetura.
+
 
