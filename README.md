@@ -106,6 +106,9 @@ Para resolver el ejercicio dividí el programa en partes usando funciones y arch
 ## Exercise: [Calcular el area de triangulo]
 ### Estrategia de solución
 Utilizamos la sugerencia de la formula de Heron, pedimos 3 inputs y calculamos con la funcion sqrt de <cmath> el area total.
-
+---
+## Exercise: [Solve a quadratic equation]
+### Estrategia de solución
+Se creó una función que recibe los valores de a, b y c, calcula el discriminante y, según su valor, determina cuántas soluciones reales existen. Si el discriminante es positivo, la función calcula dos raíces; si es cero, una sola; y si es negativo, informa que no hay soluciones reales. 
 
 
