@@ -162,3 +162,8 @@ En la primera parte se usó una función que calcula los coeficientes binomiales
 ## Exercise: [Taylor sequence]
 ### Estrategia de solución
 Se creó una funcion que aplica la serie de Taylor para el logaritmo natural de 1 mas x. La expansion es x menos x al cuadrado sobre 2 mas x al cubo sobre 3 y asi sucesivamente alternando los signos. En la funcion se suman esos terminos usando potencias y divisiones hasta la cantidad de terminos que el usuario indique. El programa principal pide el valor de x, verifica que sea mayor que menos uno para que la serie converja, y luego muestra la aproximacion del logaritmo calculada por la funcion.
+
+---
+## Exercise: [TFibonacci, lucas and Padovan sequences]
+### Estrategia de solución
+Se usa un menú con switch para escoger la secuencia y un do-while para repetir hasta salir; cada secuencia se genera iterativamente con arreglos y casos base: Fibonacci F0=0, F1=1, Lucas L0=2, L1=1 y Padovan P0=P1=P2=1 con Pn=Pn-2+Pn-3; se emplean funciones modulares para calcular y para imprimir, y una matriz n×3 para la opción que llena las tres secuencias a la vez.
