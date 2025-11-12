@@ -117,4 +117,9 @@ Se creó una función que recibe los valores de a, b y c, calcula el discriminan
 ### Estrategia de solución
 Se hizo un bucle de validacion de pares e impares para aplicar los pasos de la conjetura.
 
+---
+## Exercise: [Calculate volume of a sphere]
+### Estrategia de solución
+Se hizo una implementación sencilla que pide el radio de la esfera y calcula el volumen.
+
 
