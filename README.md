@@ -172,3 +172,18 @@ Se usa un menú con switch para escoger la secuencia y un do-while para repetir 
 ## Exercise: [Determine if it's arithmetic or geometric]
 ### Estrategia de solución
 El programa recibe una cantidad de números, los guarda en un arreglo y verifica si la diferencia o la razón entre términos consecutivos es constante; si lo es, determina si la secuencia es aritmética o geométrica respectivamente, o ninguna si no cumple ninguna condición.
+
+---
+## Exercise: [Sum of squares of the first N]
+### Estrategia de solución
+El programa pide un número N, genera los primeros N números impares usando un contador y una variable que aumenta de 2 en 2, eleva cada impar al cuadrado y acumula la suma hasta completar N repeticiones.
+
+---
+## Exercise: [Print a pyramid pattern of asterisks]
+### Estrategia de solución
+El programa usa dos bucles `for` anidados para imprimir una pirámide de 5 filas. El primer bucle controla las filas, el segundo imprime espacios y el tercero imprime los asteriscos necesarios para formar cada nivel de la figura.
+
+---
+## Exercise: [Print right-aligned, inverted, and square patterns]
+### Estrategia de solución
+Cada función imprime un patrón distinto de asteriscos: el primero forma una pirámide alineada a la derecha, el segundo una versión invertida y el tercero un bloque cuadrado. Los bucles for controlan filas y columnas, alternando espacios y asteriscos según el tipo de figura.
