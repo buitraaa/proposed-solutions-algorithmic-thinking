@@ -1,0 +1,6 @@
+#ifndef PI_H
+#define PI_H
+
+double estimarpi(int terminos);
+
+#endif
