@@ -194,4 +194,8 @@ Cada función imprime un patrón distinto de asteriscos: el primero forma una pi
 ### Estrategia de solución
 El programa pide las dimensiones N y M y usa dos bucles for anidados: el exterior controla las filas y el interior las columnas. Imprime asteriscos solo en los bordes del rectángulo y espacios en el interior, formando un rectángulo hueco.
 
+---
+## Exercise: [ Print an asterisk chessboard with * and +. ]
+### Estrategia de solución
+Se recogen filas y columnas, y con dos bucles for anidados se imprime * o + según la paridad de la suma de índices para alternar las casillas.
 
