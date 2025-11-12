@@ -188,3 +188,10 @@ El programa usa dos bucles `for` anidados para imprimir una pirámide de 5 filas
 ## Exercise: [Print right-aligned, inverted, and square patterns]
 ### Estrategia de solución
 Cada función imprime un patrón distinto de asteriscos: el primero forma una pirámide alineada a la derecha, el segundo una versión invertida y el tercero un bloque cuadrado. Los bucles for controlan filas y columnas, alternando espacios y asteriscos según el tipo de figura.
+
+---
+## Exercise: [Print a hollow rectangle of size N ×M. ]
+### Estrategia de solución
+El programa pide las dimensiones N y M y usa dos bucles for anidados: el exterior controla las filas y el interior las columnas. Imprime asteriscos solo en los bordes del rectángulo y espacios en el interior, formando un rectángulo hueco.
+
+
