@@ -137,5 +137,16 @@ Se dividió en funciones para identificar cada tipo de número. En una función 
 ### Estrategia de solución
 Se separó el problema en cuatro tipos de comprobaciones diferentes, una por cada categoría numérica. Para determinar si un número era Fibonacci, se generó la secuencia sumando los dos valores anteriores hasta alcanzar o pasar el número dado. En el caso de Kaprekar, se razonó que al elevar un número al cuadrado, si al dividirlo en dos partes la suma de esas mitades daba el número original, entonces pertenecía a esa clase. Para identificar un número narcisista, se consideró la idea de que cada dígito, elevado a la cantidad total de dígitos, debía sumar exactamente el número mismo. Finalmente, para los números de Mersenne se analizó si podían expresarse como una potencia de dos menos uno, lo que implicaba verificar esa relación de forma sucesiva.
 
+---
+## Exercise: [Leibniz]
+### Estrategia de solución
+Para implementarla:
+  Se separó la lógica en una función llamada estimarpi, que recibe la cantidad de términos a usar.
+  Dentro de la función, se suma cada término positivo y negativo alternando el signo con (-1)^i (o usando una condición con % 2).
+  Al final, se multiplica la suma por 4, porque la fórmula de Leibniz así lo define.
+
+En el main, solo se pide al usuario cuántos términos usar y se llama la función para mostrar la aproximación.
+Mientras más términos se suman, más se acerca el resultado a π.
+
 
 
