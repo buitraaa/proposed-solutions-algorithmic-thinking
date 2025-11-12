@@ -179,6 +179,7 @@ El programa recibe una cantidad de números, los guarda en un arreglo y verifica
 El programa pide un número N, genera los primeros N números impares usando un contador y una variable que aumenta de 2 en 2, eleva cada impar al cuadrado y acumula la suma hasta completar N repeticiones.
 
 ---
+---
 ## Exercise: [Print a pyramid pattern of asterisks]
 ### Estrategia de solución
 El programa usa dos bucles `for` anidados para imprimir una pirámide de 5 filas. El primer bucle controla las filas, el segundo imprime espacios y el tercero imprime los asteriscos necesarios para formar cada nivel de la figura.
