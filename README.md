@@ -132,5 +132,10 @@ Se dividió en módulos, creando una función que recibe la cantidad de término
 ### Estrategia de solución
 Se dividió en funciones para identificar cada tipo de número. En una función se sumó los divisores propios para verificar si el número era perfecto o abundante, comparando esa suma con el valor original. En otra, se usó una suma acumulada que avanza de uno en uno hasta igualar o superar el número, determinando si era triangular. Luego, en el programa principal pedí el número al usuario y llamé las funciones, mostrando los resultados según las condiciones cumplidas.
 
+---
+## Exercise: [ Determine if a number is a Fibonacci, Kaprekar, Narcissistic, or Mersenne number.]
+### Estrategia de solución
+Se separó el problema en cuatro tipos de comprobaciones diferentes, una por cada categoría numérica. Para determinar si un número era Fibonacci, se generó la secuencia sumando los dos valores anteriores hasta alcanzar o pasar el número dado. En el caso de Kaprekar, se razonó que al elevar un número al cuadrado, si al dividirlo en dos partes la suma de esas mitades daba el número original, entonces pertenecía a esa clase. Para identificar un número narcisista, se consideró la idea de que cada dígito, elevado a la cantidad total de dígitos, debía sumar exactamente el número mismo. Finalmente, para los números de Mersenne se analizó si podían expresarse como una potencia de dos menos uno, lo que implicaba verificar esa relación de forma sucesiva.
+
 
 
