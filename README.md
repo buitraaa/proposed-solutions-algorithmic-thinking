@@ -153,3 +153,9 @@ Mientras más términos se suman, más se acerca el resultado a π.
 ### Estrategia de solución
 Se separó el problema en dos funciones: una para la raíz cuadrada y otra para la cúbica. En ambas se aplicó el método de Newton-Raphson, que parte de una estimación inicial y la mejora repetidamente usando una fórmula que aproxima el resultado real. Para la raíz cuadrada se promedia el valor actual con el cociente del número entre ese valor, y para la cúbica se ajusta con una fórmula similar pero adaptada a la potencia tres. El ciclo se repite hasta que la diferencia entre aproximaciones es mínima, logrando una raíz precisa.
 
+
+---
+## Exercise: [Binomial theorem]
+### Estrategia de solución
+En la primera parte se usó una función que calcula los coeficientes binomiales mediante multiplicaciones y divisiones sucesivas, y otra que usa esos coeficientes para expandir ((a + b)^n) término a término. En la segunda se aplicó la fórmula de Stirling, que aproxima el factorial de un número grande usando raíces, potencias y la constante (e). Así, el programa permite elegir entre mostrar la expansión binomial o la estimación factorial.
+
