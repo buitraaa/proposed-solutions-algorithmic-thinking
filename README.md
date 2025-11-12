@@ -148,5 +148,8 @@ Para implementarla:
 En el main, solo se pide al usuario cuántos términos usar y se llama la función para mostrar la aproximación.
 Mientras más términos se suman, más se acerca el resultado a π.
 
-
+---
+## Exercise: [Newtons square]
+### Estrategia de solución
+Se separó el problema en dos funciones: una para la raíz cuadrada y otra para la cúbica. En ambas se aplicó el método de Newton-Raphson, que parte de una estimación inicial y la mejora repetidamente usando una fórmula que aproxima el resultado real. Para la raíz cuadrada se promedia el valor actual con el cociente del número entre ese valor, y para la cúbica se ajusta con una fórmula similar pero adaptada a la potencia tres. El ciclo se repite hasta que la diferencia entre aproximaciones es mínima, logrando una raíz precisa.
 
