@@ -103,6 +103,9 @@ Importamos dos librerías, para escoger un número, y para tener un manejo del t
 Para resolver el ejercicio dividí el programa en partes usando funciones y archivos separados. Primero se creó una función para calcular el MCD mediante restas sucesivas, restando el número menor al mayor hasta que ambos fueran iguales; ese resultado es el MCD. Luego hice otra función para el MCM aprovechando la relación entre ambos valores, multiplicando los dos números y dividiendo por su MCD. Las funciones se declararon en un archivo .h y se implementaron en un .cpp para mantener el código organizado. Finalmente, en el programa principal pedí los números al usuario, llamé las funciones y mostré los resultados, aplicando estructuras básicas como condicionales y ciclos.
 
 ---
+## Exercise: [Calcular el area de triangulo]
+### Estrategia de solución
+Utilizamos la sugerencia de la formula de Heron, pedimos 3 inputs y calculamos con la funcion sqrt de <cmath> el area total.
 
 
 
