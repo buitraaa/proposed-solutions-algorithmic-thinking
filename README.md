@@ -171,7 +171,4 @@ Se usa un menú con switch para escoger la secuencia y un do-while para repetir 
 ---
 ## Exercise: [Determine if it's arithmetic or geometric]
 ### Estrategia de solución
----
-## Exercise: [TFibonacci, lucas and Padovan sequences]
-### Estrategia de solución
 El programa recibe una cantidad de números, los guarda en un arreglo y verifica si la diferencia o la razón entre términos consecutivos es constante; si lo es, determina si la secuencia es aritmética o geométrica respectivamente, o ninguna si no cumple ninguna condición.
