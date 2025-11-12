@@ -122,4 +122,15 @@ Se hizo un bucle de validacion de pares e impares para aplicar los pasos de la c
 ### Estrategia de solución
 Se hizo una implementación sencilla que pide el radio de la esfera y calcula el volumen.
 
+---
+## Exercise: [Euler’s number estimation]
+### Estrategia de solución
+Se dividió en módulos, creando una función que recibe la cantidad de términos a usar en la serie. Dentro de ella se inició el valor de e en 1 y se usó un ciclo for para calcular los factoriales sucesivos, sumando el inverso de cada uno a la aproximación. De esa forma, mientras más términos se usan, más precisa es la estimación. En el programa principal pedí al usuario el número de términos, validé que fuera no negativo y mostré el resultado calculado por la función.
+
+---
+## Exercise: [Determine if a number is perfect, abundant, or a triangular number. ]
+### Estrategia de solución
+Se dividió en funciones para identificar cada tipo de número. En una función se sumó los divisores propios para verificar si el número era perfecto o abundante, comparando esa suma con el valor original. En otra, se usó una suma acumulada que avanza de uno en uno hasta igualar o superar el número, determinando si era triangular. Luego, en el programa principal pedí el número al usuario y llamé las funciones, mostrando los resultados según las condiciones cumplidas.
+
+
 
