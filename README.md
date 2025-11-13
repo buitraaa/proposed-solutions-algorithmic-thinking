@@ -209,3 +209,6 @@ El programa imprime una cuadrícula de números donde las filas impares van en o
 ## Exercise: [ Simulate a dice roll]
 ### Estrategia de solución
 El programa pide cuántas veces lanzar el dado, usa una semilla aleatoria con srand(time(0)), genera números del 1 al 6 con rand() % 6, y muestra el resultado de cada lanzamiento.
+## Exercise: [Simulate rock paper scissors]
+### Estrategia de solución
+El programa pide una opción al jugador, elige otra al azar para la computadora con rand() % 3, y determina el resultado comparando ambas elecciones mediante condiciones if y un switch para mostrar la jugada del oponente.
