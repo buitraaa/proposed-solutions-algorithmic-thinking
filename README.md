@@ -200,7 +200,6 @@ El programa pide las dimensiones N y M y usa dos bucles for anidados: el exterio
 Se recogen filas y columnas, y con dos bucles for anidados se imprime * o + según la paridad de la suma de índices para alternar las casillas.
 
 ---
-## Exercise: [  Print patterns in shapes of “X”, “Z”, Floyd’s triangle, Pascal’s triangle]
+## Exercise: [ Print a zig-zag number pattern]
 ### Estrategia de solución
-Cada figura se genera con bucles for anidados: la “X” imprime diagonales opuestas, la “Z” usa bordes y diagonal inversa, el triángulo de Floyd muestra números consecutivos en forma triangular y el triángulo de Pascal calcula cada valor combinando los anteriores con operaciones simples dentro del mismo bucle.
-
+El programa imprime una cuadrícula de números donde las filas impares van en orden ascendente y las pares en orden descendente, creando un recorrido visual en forma de zig-zag al alternar la dirección en cada fila.
