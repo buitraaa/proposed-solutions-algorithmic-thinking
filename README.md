@@ -199,3 +199,8 @@ El programa pide las dimensiones N y M y usa dos bucles for anidados: el exterio
 ### Estrategia de solución
 Se recogen filas y columnas, y con dos bucles for anidados se imprime * o + según la paridad de la suma de índices para alternar las casillas.
 
+---
+## Exercise: [  Print patterns in shapes of “X”, “Z”, Floyd’s triangle, Pascal’s triangle]
+### Estrategia de solución
+Cada figura se genera con bucles for anidados: la “X” imprime diagonales opuestas, la “Z” usa bordes y diagonal inversa, el triángulo de Floyd muestra números consecutivos en forma triangular y el triángulo de Pascal calcula cada valor combinando los anteriores con operaciones simples dentro del mismo bucle.
+
