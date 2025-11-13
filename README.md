@@ -203,3 +203,9 @@ Se recogen filas y columnas, y con dos bucles for anidados se imprime * o + seg�
 ## Exercise: [ Print a zig-zag number pattern]
 ### Estrategia de solución
 El programa imprime una cuadrícula de números donde las filas impares van en orden ascendente y las pares en orden descendente, creando un recorrido visual en forma de zig-zag al alternar la dirección en cada fila.
+
+---
+---
+## Exercise: [ Simulate a dice roll]
+### Estrategia de solución
+El programa pide cuántas veces lanzar el dado, usa una semilla aleatoria con srand(time(0)), genera números del 1 al 6 con rand() % 6, y muestra el resultado de cada lanzamiento.
