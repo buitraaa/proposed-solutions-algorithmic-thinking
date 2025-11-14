@@ -220,3 +220,8 @@ El programa pide una opción al jugador, elige otra al azar para la computadora 
 ### Estrategia de solución
 El programa genera un número aleatorio entre 1 y 20 y pide al usuario que adivine. Usa un bucle while para repetir intentos hasta acertar, mostrando si cada intento es mayor o menor que el número secreto.
 
+--
+## Exercise: [Generate Pythagorean triplets. ]
+### Estrategia de solución
+La función recorre todas las combinaciones de valores entre 1 y N usando tres bucles y verifica con una condición si cumplen a² + b² = c²; cuando la igualdad se cumple imprime la terna pitagórica correspondiente.
+
