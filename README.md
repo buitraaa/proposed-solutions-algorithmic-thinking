@@ -225,3 +225,8 @@ El programa genera un número aleatorio entre 1 y 20 y pide al usuario que adivi
 ### Estrategia de solución
 La función recorre todas las combinaciones de valores entre 1 y N usando tres bucles y verifica con una condición si cumplen a² + b² = c²; cuando la igualdad se cumple imprime la terna pitagórica correspondiente.
 
+--
+## Exercise: [ Random number generator using uniform or normal distribution]
+### Estrategia de solución
+La función uniforme convierte valores de rand() en números entre 0 y 1; la función normal usa dos números uniformes y aplica la transformación Box–Muller para obtener valores con distribución normal estándar.
+
